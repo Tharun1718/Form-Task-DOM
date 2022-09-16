@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(236, 204, 161);
+}
+
+.header-container {
+    text-align: center;
+}
+
+.form{
+    border: 2px solid rgb(95, 61, 61);
+    padding: 12px;
+}
+.form-group {
+    margin-top: 16px;
+}
+
+.table {
+    margin-top: 20px;
+    border: 2px solid gray;
+}

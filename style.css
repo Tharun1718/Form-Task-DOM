@@ -1,20 +1,23 @@
 body{
-    background-color: rgb(236, 204, 161);
+    font-family: sans-serif;
 }
 
-.header-container {
+.header-container{
     text-align: center;
 }
 
-.form{
-    border: 2px solid rgb(95, 61, 61);
+.form-container {
+    border: 5px solid black;
     padding: 12px;
 }
+
 .form-group {
-    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
-.table {
-    margin-top: 20px;
-    border: 2px solid gray;
+label {
+    font-size: large;
+    font-weight: bold;
 }

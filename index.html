@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
     <div>
@@ -25,19 +26,20 @@
             </div>
             <div class="form-group">
                 <label for="address">Address</label>
-                <textarea type="text" id="address" name="address" rows="2" cols="10" placeholder ="enter address" ></textarea>
+                <textarea type="text" id="address" name="address" rows="2" cols="20" placeholder ="enter address" ></textarea>
             </div>
             <div class="form-group">
                 <label for="pincode">Pincode</label>
                 <input type="pincode" id="pincode" name="pincode" placeholder="enter pincode" required/>
             </div>
-            <span>Gender</span>
+            <div class="gender">Gender
+            <br>
             <input type="radio" id="male" name="gender" value="Male"/>
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="Female"/>
             <label for="female">Female</label>
-            <br><br>
-            <span>Choice of Food</span>
+            </div>
+            <div class="food">Choice of Food
             <input type="checkbox" id="food1" name="food" value="Indian"/>
             <label for="food1">Indian</label>
             <input type="checkbox" id="food2" name="food" value="Chinese"/>
@@ -48,7 +50,7 @@
             <label for="food4">Italian</label>
             <input type="checkbox" id="food5" name="food" value="Japanese"/>
             <label for="food5">Japanese</label>
-            <br><br>
+            </div>
             <label for="state">State</label>
             <input type="text" id="state" name="state"/>
             <br><br>
